@@ -4,6 +4,6 @@
 
 ````javascript
 seajs.use('alistyle', function(alistyle){
-
+	
 });
 ````
