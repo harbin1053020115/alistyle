@@ -19,5 +19,8 @@
     "alias": {},
     "devAlias": {},
     "engines": {}
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "~0.7.0"
   }
 }
