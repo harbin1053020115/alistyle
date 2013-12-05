@@ -1,11 +1,12 @@
 .ali-modal{
-	margin: 0 auto 20px;
+	margin: 20px 0;
 	position: fixed;
 	top: 10%;
 	left: 50%;
 	z-index: 1050;
 	width: 500px;
 	margin-left: -250px;
+	position: relative;
 	background-color: rgba(0, 0, 0, 0.498039);
 	filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#88000000, endColorstr=#88000000); BORDER-LEFT: 0px
 	outline: none;

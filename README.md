@@ -1,18 +1,28 @@
-# alistyle
+# Modal
 
 ---
 
-阿里巴巴内部系统样式库
+弹出框
 
 ---
 
-## 使用说明
-
-
-````html
 <!--基于aliceui-->
 <link media="all" href="https://a.alipayobjects.com/??alice/base/1.0.1/base.css,alice/button/1.1.1/button.css,alice/grid/1.0.0/grid.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" media="screen" href="src/alistyle.css">
+<style>
+	.ali-modal{
+		position: relative;
+		margin: 20px 0;
+		left: 0;
+		top: 0;
+	}
+</style>
+
+## 演示
+
+### 默认样式
+
+````html
 <div class="ali-modal">
 	<div class="ali-modal-header">
 		<button class="ali-modal-close" title="关闭本框">×</button>
